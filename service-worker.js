@@ -4,6 +4,24 @@ const toCache = [
   'manifest.json',
   '/js/register.js',
   'assets/images/Glosir.png',
+  'assets/css/style.css',
+  'assets/css/bootstrap.min.css',
+  'assets/css/bootstrap.min.css.map',
+  'assets/images/favicon.ico',
+  'assets/images/Glosir.png',
+  'assets/images/Glosir1.jpg',
+  'js/apps.js',
+  'js/boostrap.min.js',
+  'js/boostrap.min.js.map',
+  'js/jautocalc.js',
+  'js/jautocalc.js.map',
+  'js/jautocalc.min.js',
+  'js/jquery.min.js',
+  'js/script.js',
+  'index.html',
+
+
+
 ];
 self.addEventListener("beforeinstallprompt", (e) => {
   e.preventDefault();
